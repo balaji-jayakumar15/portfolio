@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Portfolio</title>
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <h1 class="logo">Portfolio</h1></div>
+        <ul class="ul-navbar">
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="#"><li>Contact</li></a>
+            <a href="skills.html"><li>Skills</li></a>
+        </ul>
+        <button class="resume-download"><a href="asserts/CV_2025082423011128.pdf" download-class="resume-download">Download Resume</a></button>
+    </nav>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="content-form">
+            <div class="content-left">
+              <h1>Get in touch</h1>
+              <hr>
+              <input type="hidden" name="access_key" value="20c7ee35-20c5-4551-90b5-2fbdec391d94">
+              <input type="text" name="name" placeholder="Your name" class="contact-input" required>
+              <input type="email" name="email" placeholder="Your email" class="contact-input" required>
+              <textarea type="text" name="message" placeholder="Your message" class="contact-input" required></textarea>
+              <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div class="content-right">
+            <img src="asserts/message-img.webp" width="500px" height="500px">
+        </div>
+        
+        
+    </div>
+    
+</body>
+</html>
